@@ -248,6 +248,10 @@ bool dayOk(int day, int month, int year){
 				OK=true;
 		}
 	}
+	else{
+		OK=false;
+	}
+	
 	return OK;
 }
 
